@@ -1,0 +1,180 @@
+.main-title {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-size: 24px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #141519;
+}
+
+.title {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #141519;
+}
+
+.sub-title {
+  /*font-family: 'Poppins', sans-serif;*/
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #838799;
+}
+
+.input-number {
+  width: 360px;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 8px 0px 0px 8px;
+  border: solid 1px #dcdee6;
+}
+.suffix-input {
+  width: 60px;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 0px 8px 8px 0px;
+  border: solid 1px #dcdee6;
+  border-left: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.suffix-text {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.25px;
+  color: #838799;
+  text-transform: capitalize;
+}
+
+.accumulate-radio-body {
+  width: 251.7px;
+  height: 44px;
+  flex-grow: 0;
+  padding: 12px 10px;
+  border-radius: 8px;
+  /*border: solid 1px #dcdee6;*/
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin: 0;
+}
+
+.accumulate-text {
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.25px;
+  text-align: left;
+  color: #838799;
+}
+
+.calculate-point-radio-text {
+  color: #141519;
+  font-weight: 500;
+}
+
+/*.input-number:focus {*/
+/*  outline: none; !* Remove the default focus outline *!*/
+/*  border: none;  !* Remove the border when the input is clicked *!*/
+
+/*}*/
+/*.input-number:active{*/
+/*  outline: none; !* Remove the default focus outline *!*/
+/*  border: none;  !* Remove the border when the input is clicked *!*/
+/*}*/
+
+.percent::after {
+  content: "%";
+}
+
+.time_input_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  /* border: solid 1px #dcdee6; */
+  padding-right: 20px;
+  gap: 12px;
+}
+
+.time-day-body {
+  gap: 1px;
+  width: 124px;
+  height: 44px;
+  align-items: center;
+  align-self: center;
+  /*padding: 12px 44.5px 12px 46px;*/
+  border-radius: 8px;
+  border: solid 1px transparent;
+  outline: none !important;
+}
+
+.num-days-body {
+  gap: 1px;
+  width: 184px;
+  height: 44px;
+  align-items: center;
+  align-self: center;
+  /*padding: 12px 44.5px 12px 46px;*/
+  border-radius: 8px;
+  border: solid 1px #dcdee6;
+}
+
+#my-input-container {
+  display: inline-block;
+  position: relative;
+  font: 12px arial;
+  text-align: center;
+}
+
+#my-input {
+  font: inherit;
+
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  color: #838799;
+}
+
+#my-suffix {
+  position: absolute;
+  left: 72%;
+  top: 27%;
+  height: 40px;
+  padding-left: 2px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: center;
+  color: #838799;
+}
+
+/*#my-input[type="time"]::-webkit-calendar-picker-indicator {*/
+/*  background: none;*/
+/*}*/
+
+/*#my-input[type=time]::-webkit-datetime-edit-ampm-field {*/
+/*  display: none;*/
+/*}*/

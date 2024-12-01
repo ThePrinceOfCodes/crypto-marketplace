@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "@sections/*" : ["sections/*"],
+      "@common/*" : ["common/*"],
+      "@cypress/*" : ["../cypress/*"],
+    },
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["../v2/msquare-admin-frontend/node_modules", "cypress.config.ts", "cypress/**/*"]
+}

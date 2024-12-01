@@ -1,0 +1,15 @@
+.filter-title{
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: #141519;
+}
+
+.mobile-sidebar-body{
+  height : calc(100% - 8.5%);
+  overflow-y: auto;
+}

@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  --toastify-icon-color-success: #4ade80;
+  --toastify-icon-color-error: #f87171;
+  --toastify-icon-color-info: #60a5fa;
+  --toastify-icon-color-warning: #facc15;
+}
+
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  scroll-behavior: smooth !important;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+} */
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html,
+  body {
+    @apply font-inter scroll-smooth p-0 m-0 w-full h-full;
+  }
+
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.pac-container {
+  z-index: 9999;
+}
+
+.vertical-border {
+  border-left: 1px solid #DCDEE6;
+  height: 42px;
+  width: 1px;
+}
+
+.tabsbutton .MuiTabs-flexContainer {
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.tabsbutton .Mui-selected {
+  background: #E8EEFF !important;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 8%) !important;
+  border-radius: 1px !important;
+}
+
+.mui-tabs-full-height .MuiTabs-scroller{
+  height: 100%!important;
+}
+
+.input-section {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5px;
+  margin-bottom: 25px;
+}
+
+.modal-container {
+  width: 600px;
+}
+
+.custom-input {
+  width: 20rem;
+  background-color: white !important;
+  margin-bottom: 2px;
+}
+
+.css-19kzrtu {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.custom-dialog-width-500 {
+  max-width: 500px;
+}
+
+.shimmer {
+  background-image: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% auto;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+
+.Toastify__toast {
+  border-radius: 8px !important;
+}
